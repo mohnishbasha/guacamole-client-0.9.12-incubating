@@ -82,4 +82,4 @@ hosted at:
 ------------------------------------------------------------
 Demo
 ------------------------------------------------------------
-![demo.gif](https://github.com/mohnishbasha/guacamole-client-0.9.12-incubating/blob/master/demo/guacamole-client.gif "demo")
+![guacamole-client-application.gif](https://github.com/mohnishbasha/guacamole-client-0.9.12-incubating/blob/master/demo/guacamole-client-application.gif "Guacamole Client Application")

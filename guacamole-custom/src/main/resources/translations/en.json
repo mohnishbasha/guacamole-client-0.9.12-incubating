@@ -1,0 +1,17 @@
+{
+
+    "page" : {
+        "title"    : "Welcome to e-tools"
+    },
+    
+    "APP" : {
+        "NAME"    : "e-tools Login",
+        "VERSION" : "1.0"
+    },
+    
+    "CUSTOM" : {
+        "WELCOME_MSG"    : "Welcome to e-tools",
+        "users"          :"Assign users"
+    }
+
+}

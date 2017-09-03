@@ -1,0 +1,33 @@
+
+<div class="assign-connection">
+	<div class="header">
+	     <h2>{{'CUSTOM.users' | translate}}</h2>
+	     <!-- User filter -->
+			<guac-filter filtered-items="filteredManageableUsers"
+				items="manageableUsers"
+				placeholder="'SETTINGS_USERS.FIELD_PLACEHOLDER_FILTER' | translate"
+				properties="filteredUserProperties"></guac-filter>
+	</div>
+	
+	<div class="section">
+		<div class="toolbar">
+			<!-- List of users this user has access to -->
+			<div class="user-list">
+				<div ng-repeat="manageableUser in manageableUserPage"
+					class="user list-item">
+					<div class="caption">
+						<div class="icon user"></div>
+						  <!-- Permission checkbox -->
+	   					  <input type="checkbox" ng-model="context.getPermissionFlags().userMap[manageableUser.user.username]"
+	                           ng-change="context.connectionGroupUserPermissionChanged(manageableUser.user.username)"/>
+						<span class="name">{{manageableUser.user.username}}</span>
+					</div>
+				</div>
+			</div>
+	
+			<!-- Pager controls for user list -->
+			<guac-pager page="manageableUserPage" page-size="25"
+				items="filteredManageableUsers | orderBy : 'user.username'"></guac-pager>
+		</div>
+	</div>
+</div>

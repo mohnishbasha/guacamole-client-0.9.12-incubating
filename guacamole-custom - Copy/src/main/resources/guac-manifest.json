@@ -1,0 +1,36 @@
+{
+
+    "guacamoleVersion" : "0.9.12-incubating",
+
+    "name"      : "Custom extension",
+    "namespace" : "guac-custom",
+    
+    "html" : [
+        "html/no-recent-connection.html",
+        "html/guacCustomGroupList.html",
+        "html/manageConnectionGroupUsers.html",
+        "html/assign-connection-group.html"
+    ],
+    
+     "css" : [
+        "styles/custom.css"
+    ],
+     
+    "js" : [
+        "js/guacCustomGroupList.js",
+        "js/guacConnectionUsers.js"
+    ],
+    "resources" : {
+        "images/logo.png" : "image/png",
+        "images/guac-tricolor.png" : "image/png",
+        "images/logo-64.png" : "image/png",
+        "images/logo-144.png" : "image/png",
+        "html/assign-connection-group.html" : "text/html",
+        "html/guacCustomGroupList.html" : "text/html"       
+    },
+    
+    "translations" : [
+        "translations/en.json"
+    ]
+
+}

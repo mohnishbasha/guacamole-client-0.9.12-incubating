@@ -32,6 +32,18 @@ guacamole-client, Maven will take care of the proper build order.
 
 
 ------------------------------------------------------------
+ Pre Requisite: Configure LDAP & MySQL Integration
+------------------------------------------------------------
+* https://guacamole.incubator.apache.org/doc/gug/ldap-auth.html
+* https://guacamole.incubator.apache.org/doc/0.9.0/gug/mysql-auth.html
+
+------------------------------------------------------------
+Writing Custom Guacamole Application
+------------------------------------------------------------
+* https://guacamole.incubator.apache.org/doc/gug/writing-you-own-guacamole-app.html
+
+
+------------------------------------------------------------
  Compiling and installing Apache Guacamole
 ------------------------------------------------------------
 
@@ -66,3 +78,8 @@ hosted at:
     
     https://issues.apache.org/jira/browse/GUACAMOLE/
 
+
+------------------------------------------------------------
+Demo
+------------------------------------------------------------
+![demo.gif](https://github.com/mohnishbasha/guacamole-client-0.9.12-incubating/blob/master/demo/guacamole-client.gif "demo")
